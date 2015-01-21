@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:tracking="http://www.mulesoft.org/schema/mule/ee/tracking" xmlns:servicenow="http://www.mulesoft.org/schema/mule/servicenow" xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:mulexml="http://www.mulesoft.org/schema/mule/xml" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="EE-3.5.1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/ee/data-mapper http://www.mulesoft.org/schema/mule/ee/data-mapper/current/mule-data-mapper.xsd
+http://www.mulesoft.org/schema/mule/servicenow http://www.mulesoft.org/schema/mule/servicenow/current/mule-servicenow.xsd
+http://www.mulesoft.org/schema/mule/xml http://www.mulesoft.org/schema/mule/xml/current/mule-xml.xsd
+http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/mule/ee/tracking/current/mule-tracking-ee.xsd">
+    <servicenow:config name="ServiceNow" username="admin" password="37jAIN87jSdL" serviceEndpoint="https://dev107.service-now.com/incident.do" doc:name="ServiceNow"/>
+    <data-mapper:config name="Map_To_Map" transformationGraphPath="map_to_map.grf" doc:name="Map_To_Map"/>
+    <data-mapper:config name="Pojo_To_Map" transformationGraphPath="pojo_to_map.grf" doc:name="Pojo_To_Map"/>
+    <data-mapper:config name="Pojo_To_Map_1" transformationGraphPath="pojo_to_map_1.grf" doc:name="Pojo_To_Map_1"/>
+    <!--  <flow name="servicenow2jiraFlow1" doc:name="servicenow2jiraFlow1">
+        <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8082" doc:name="HTTP"/>
+        <set-variable variableName="CD" value="#[server.dateTime.plusMinutes(-5).toString()]" doc:name="Variable"/>
+        <set-variable variableName="final" value="#['flowVars.CD.substring(10)'+'flowVars.CD.substring(12,20)']" doc:name="Variable"/>
+        <logger level="INFO" doc:name="Logger"/>
+        <data-mapper:transform config-ref="Map_To_Map" doc:name="Map To Map"/>
+        <servicenow:get-records config-ref="ServiceNow" type="INCIDENT" doc:name="ServiceNow"/>
+        <logger level="INFO" doc:name="Logger"/>
+        <mulexml:object-to-xml-transformer doc:name="Object to XML"/>
+    </flow> -->
+    <flow name="servicenow2jiraFlow2" doc:name="servicenow2jiraFlow2">
+        <http:inbound-endpoint exchange-pattern="one-way" host="localhost" port="8085" doc:name="HTTP"/>
+        <set-variable variableName="input" value="Anirudh Pandit" doc:name="Variable"/>
+        <data-mapper:transform config-ref="Pojo_To_Map" input-ref="#[flowVars[&quot;input&quot;]]" doc:name="Pojo To Map"/>
+        <servicenow:get-records config-ref="ServiceNow" type="INCIDENT" doc:name="ServiceNow"/>
+        <logger message="#[payload]" level="INFO" doc:name="Logger"/>
+    </flow>
+    <flow name="servicenow2jiraFlow1" doc:name="servicenow2jiraFlow1">
+        <set-variable variableName="name" value="Anirudh Pandit" doc:name="Variable"/>
+        <data-mapper:transform config-ref="Pojo_To_Map_1" input-ref="#[flowVars[&quot;name&quot;]]" doc:name="Pojo To Map"/>
+        <servicenow:get-records config-ref="ServiceNow" type="INCIDENT" doc:name="ServiceNow"/>
+        
+        <logger message="#[payload.toString()]" level="INFO" doc:name="Logger"/>
+    </flow>
+</mule>

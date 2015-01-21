@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:jetty="http://www.mulesoft.org/schema/mule/jetty" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:db="http://www.mulesoft.org/schema/mule/db" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="EE-3.5.1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd
+http://www.mulesoft.org/schema/mule/jetty http://www.mulesoft.org/schema/mule/jetty/current/mule-jetty.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+
+    <db:mysql-config name="MySQL_Configuration" host="localhost" port="3306" user="root"  database="id_translation" doc:name="MySQL Configuration"/>
+    <flow name="idTranslationFlow1" doc:name="idTranslationFlow1">
+        <jetty:inbound-endpoint exchange-pattern="request-response" address="http://localhost:8088/id/case_comment" doc:name="Jetty"/>
+        <db:select config-ref="MySQL_Configuration" doc:name="Database">
+            <db:dynamic-query><![CDATA[SELECT #[message.inboundProperties['http.query.params'].from] FROM case_comment WHERE #[message.inboundProperties['http.query.params'].to] = #[message.inboundProperties['http.query.params'].id]]]></db:dynamic-query>
+        </db:select>
+        <set-payload value="#[payload[0].sfcd_case_comment_id]" doc:name="Set Payload"/>
+    </flow>
+</mule>

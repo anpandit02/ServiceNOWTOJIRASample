@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph __version="3.5.0" author="jorgegarcia" created="Fri Aug 15 13:27:09 ART 2014" description="IssueDeletedToListCase" guiVersion="3.4.4.P" id="1408125035155" licenseCode="Unlicensed" licenseType="Unknown" modified="Fri Aug 15 13:27:09 ART 2014" modifiedBy="jorgegarcia" name="IssueDeletedToListCase" preview-file="${Project_Home}/src/main/resources/jira-events/issue-delete.json" revision="1.0" showComponentDetails="false">
+<Global>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/Case" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _type="Output" id="b14cba7a-2cc8-44ed-95dc-11df107b921b">
+<Record fieldDelimiter="," name="Case" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="3" __sourcePath="{}/Case/AccountId" containerType="SINGLE" label="AccountId" name="AccountId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="33" __sourcePath="{}/Case/AssetId" containerType="SINGLE" label="AssetId" name="AssetId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="16" __sourcePath="{}/Case/CaseNumber" containerType="SINGLE" label="CaseNumber" name="CaseNumber" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="32" __sourcePath="{}/Case/ClosedDate" containerType="SINGLE" label="ClosedDate" name="ClosedDate" type="string"/>
+<Field __implementationClass="java.lang.String" __index="8" __sourcePath="{}/Case/ContactId" containerType="SINGLE" label="ContactId" name="ContactId" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="6" __sourcePath="{}/Case/Create_x005fJIRA_x005f_x005fc" containerType="SINGLE" label="Create_JIRA__c" name="Create_JIRA__c" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="14" __sourcePath="{}/Case/CreatedById" containerType="SINGLE" label="CreatedById" name="CreatedById" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="29" __sourcePath="{}/Case/CreatedDate" containerType="SINGLE" label="CreatedDate" name="CreatedDate" type="string"/>
+<Field __implementationClass="java.lang.String" __index="4" __sourcePath="{}/Case/Description" containerType="SINGLE" label="Description" name="Description" type="string"/>
+<Field __implementationClass="java.lang.String" __index="30" __sourcePath="{}/Case/EngineeringReqNumber_x005f_x005fc" containerType="SINGLE" label="EngineeringReqNumber__c" name="EngineeringReqNumber__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="31" __sourcePath="{}/Case/Id" containerType="SINGLE" label="Id" name="Id" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="9" __sourcePath="{}/Case/IsClosed" containerType="SINGLE" label="IsClosed" name="IsClosed" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="21" __sourcePath="{}/Case/IsDeleted" containerType="SINGLE" label="IsDeleted" name="IsDeleted" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="27" __sourcePath="{}/Case/IsEscalated" containerType="SINGLE" label="IsEscalated" name="IsEscalated" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="18" __sourcePath="{}/Case/JIRA_x005fUrl_x005f_x005fc" containerType="SINGLE" label="JIRA_Url__c" name="JIRA_Url__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="34" __sourcePath="{}/Case/LastModifiedById" containerType="SINGLE" label="LastModifiedById" name="LastModifiedById" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="2" __sourcePath="{}/Case/LastModifiedDate" containerType="SINGLE" label="LastModifiedDate" name="LastModifiedDate" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="7" __sourcePath="{}/Case/LastReferencedDate" containerType="SINGLE" label="LastReferencedDate" name="LastReferencedDate" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="23" __sourcePath="{}/Case/LastViewedDate" containerType="SINGLE" label="LastViewedDate" name="LastViewedDate" type="string"/>
+<Field __index="0" __sourcePath="{}/Case/Origin" containerType="SINGLE" label="Origin" name="Origin" type="string"/>
+<Field __implementationClass="java.lang.String" __index="13" __sourcePath="{}/Case/OwnerId" containerType="SINGLE" label="OwnerId" name="OwnerId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="19" __sourcePath="{}/Case/ParentId" containerType="SINGLE" label="ParentId" name="ParentId" type="string"/>
+<Field __index="1" __sourcePath="{}/Case/PotentialLiability_x005f_x005fc" containerType="SINGLE" label="PotentialLiability__c" name="PotentialLiability__c" type="string"/>
+<Field __index="22" __sourcePath="{}/Case/Priority" containerType="SINGLE" label="Priority" name="Priority" type="string"/>
+<Field __index="17" __sourcePath="{}/Case/Product_x005f_x005fc" containerType="SINGLE" label="Product__c" name="Product__c" type="string"/>
+<Field __index="10" __sourcePath="{}/Case/Reason" containerType="SINGLE" label="Reason" name="Reason" type="string"/>
+<Field __index="28" __sourcePath="{}/Case/SLAViolation_x005f_x005fc" containerType="SINGLE" label="SLAViolation__c" name="SLAViolation__c" type="string"/>
+<Field __index="20" __sourcePath="{}/Case/Status" containerType="SINGLE" label="Status" name="Status" type="string"/>
+<Field __implementationClass="java.lang.String" __index="24" __sourcePath="{}/Case/Subject" containerType="SINGLE" label="Subject" name="Subject" type="string"/>
+<Field __implementationClass="java.lang.String" __index="5" __sourcePath="{}/Case/SuppliedCompany" containerType="SINGLE" label="SuppliedCompany" name="SuppliedCompany" type="string"/>
+<Field __implementationClass="java.lang.String" __index="11" __sourcePath="{}/Case/SuppliedEmail" containerType="SINGLE" label="SuppliedEmail" name="SuppliedEmail" type="string"/>
+<Field __implementationClass="java.lang.String" __index="12" __sourcePath="{}/Case/SuppliedName" containerType="SINGLE" label="SuppliedName" name="SuppliedName" type="string"/>
+<Field __implementationClass="java.lang.String" __index="15" __sourcePath="{}/Case/SuppliedPhone" containerType="SINGLE" label="SuppliedPhone" name="SuppliedPhone" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="25" __sourcePath="{}/Case/SystemModstamp" containerType="SINGLE" label="SystemModstamp" name="SystemModstamp" type="string"/>
+<Field __index="26" __sourcePath="{}/Case/Type" containerType="SINGLE" label="Type" name="Type" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="2" __referenceCounter="0" __sourcePath="{}/object/issue/fields/comment/comments" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="518a6387-3791-42de-87b7-5872ce712f6f" _parent_id="__parent_id" _type="Input" id="8f3ed1ad-38fc-4dac-b96e-a9ffd02bab44">
+<Record fieldDelimiter="," name="comments" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="2" __sourcePath="{}/object/issue/fields/comment/comments/author/active" containerType="SINGLE" label="active" name="active" type="boolean"/>
+<Field __index="3" __sourcePath="{}/object/issue/fields/comment/comments/author/avatarUrls/_x00316x16" containerType="SINGLE" label="16x16" name="_16x16" type="string"/>
+<Field __index="4" __sourcePath="{}/object/issue/fields/comment/comments/author/avatarUrls/_x00324x24" containerType="SINGLE" label="24x24" name="_24x24" type="string"/>
+<Field __index="5" __sourcePath="{}/object/issue/fields/comment/comments/author/avatarUrls/_x00332x32" containerType="SINGLE" label="32x32" name="_32x32" type="string"/>
+<Field __index="6" __sourcePath="{}/object/issue/fields/comment/comments/author/avatarUrls/_x00348x48" containerType="SINGLE" label="48x48" name="_48x48" type="string"/>
+<Field __index="7" __sourcePath="{}/object/issue/fields/comment/comments/author/displayName" containerType="SINGLE" label="displayName" name="displayName" type="string"/>
+<Field __index="8" __sourcePath="{}/object/issue/fields/comment/comments/author/emailAddress" containerType="SINGLE" label="emailAddress" name="emailAddress" type="string"/>
+<Field __index="9" __sourcePath="{}/object/issue/fields/comment/comments/author/name" containerType="SINGLE" label="name" name="name" type="string"/>
+<Field __index="10" __sourcePath="{}/object/issue/fields/comment/comments/author/self" containerType="SINGLE" label="self" name="self" type="string"/>
+<Field __index="11" __sourcePath="{}/object/issue/fields/comment/comments/body" containerType="SINGLE" label="body" name="body" type="string"/>
+<Field __index="12" __sourcePath="{}/object/issue/fields/comment/comments/created" containerType="SINGLE" label="created" name="created" type="string"/>
+<Field __index="13" __sourcePath="{}/object/issue/fields/comment/comments/id" containerType="SINGLE" label="id" name="id" type="string"/>
+<Field __index="14" __sourcePath="{}/object/issue/fields/comment/comments/self" containerType="SINGLE" label="self" name="self_1" type="string"/>
+<Field __index="15" __sourcePath="{}/object/issue/fields/comment/comments/updateAuthor/active" containerType="SINGLE" label="active" name="active_1" type="boolean"/>
+<Field __index="16" __sourcePath="{}/object/issue/fields/comment/comments/updateAuthor/avatarUrls/_x00316x16" containerType="SINGLE" label="16x16" name="_16x16_1" type="string"/>
+<Field __index="17" __sourcePath="{}/object/issue/fields/comment/comments/updateAuthor/avatarUrls/_x00324x24" containerType="SINGLE" label="24x24" name="_24x24_1" type="string"/>
+<Field __index="18" __sourcePath="{}/object/issue/fields/comment/comments/updateAuthor/avatarUrls/_x00332x32" containerType="SINGLE" label="32x32" name="_32x32_1" type="string"/>
+<Field __index="19" __sourcePath="{}/object/issue/fields/comment/comments/updateAuthor/avatarUrls/_x00348x48" containerType="SINGLE" label="48x48" name="_48x48_1" type="string"/>
+<Field __index="20" __sourcePath="{}/object/issue/fields/comment/comments/updateAuthor/displayName" containerType="SINGLE" label="displayName" name="displayName_1" type="string"/>
+<Field __index="21" __sourcePath="{}/object/issue/fields/comment/comments/updateAuthor/emailAddress" containerType="SINGLE" label="emailAddress" name="emailAddress_1" type="string"/>
+<Field __index="22" __sourcePath="{}/object/issue/fields/comment/comments/updateAuthor/name" containerType="SINGLE" label="name" name="name_1" type="string"/>
+<Field __index="23" __sourcePath="{}/object/issue/fields/comment/comments/updateAuthor/self" containerType="SINGLE" label="self" name="self_2" type="string"/>
+<Field __index="24" __sourcePath="{}/object/issue/fields/comment/comments/updated" containerType="SINGLE" label="updated" name="updated" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/object" _dataStructure="OBJECT" _id="__id" _type="Input" id="518a6387-3791-42de-87b7-5872ce712f6f">
+<Record fieldDelimiter="," name="object" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/object/issue/fields/aggregateprogress/progress" containerType="SINGLE" label="progress" name="progress" type="integer"/>
+<Field __index="1" __sourcePath="{}/object/issue/fields/aggregateprogress/total" containerType="SINGLE" label="total" name="total" type="integer"/>
+<Field __index="25" __sourcePath="{}/object/issue/fields/comment/maxResults" containerType="SINGLE" label="maxResults" name="maxResults" type="integer"/>
+<Field __index="26" __sourcePath="{}/object/issue/fields/comment/startAt" containerType="SINGLE" label="startAt" name="startAt" type="integer"/>
+<Field __index="27" __sourcePath="{}/object/issue/fields/comment/total" containerType="SINGLE" label="total" name="total_1" type="integer"/>
+<Field __index="28" __sourcePath="{}/object/issue/fields/created" containerType="SINGLE" label="created" name="created" type="string"/>
+<Field __index="29" __sourcePath="{}/object/issue/fields/creator/active" containerType="SINGLE" label="active" name="active" type="boolean"/>
+<Field __index="30" __sourcePath="{}/object/issue/fields/creator/avatarUrls/_x00316x16" containerType="SINGLE" label="16x16" name="_16x16" type="string"/>
+<Field __index="31" __sourcePath="{}/object/issue/fields/creator/avatarUrls/_x00324x24" containerType="SINGLE" label="24x24" name="_24x24" type="string"/>
+<Field __index="32" __sourcePath="{}/object/issue/fields/creator/avatarUrls/_x00332x32" containerType="SINGLE" label="32x32" name="_32x32" type="string"/>
+<Field __index="33" __sourcePath="{}/object/issue/fields/creator/avatarUrls/_x00348x48" containerType="SINGLE" label="48x48" name="_48x48" type="string"/>
+<Field __index="34" __sourcePath="{}/object/issue/fields/creator/displayName" containerType="SINGLE" label="displayName" name="displayName" type="string"/>
+<Field __index="35" __sourcePath="{}/object/issue/fields/creator/emailAddress" containerType="SINGLE" label="emailAddress" name="emailAddress" type="string"/>
+<Field __index="36" __sourcePath="{}/object/issue/fields/creator/name" containerType="SINGLE" label="name" name="name" type="string"/>
+<Field __index="37" __sourcePath="{}/object/issue/fields/creator/self" containerType="SINGLE" label="self" name="self" type="string"/>
+<Field __index="38" __sourcePath="{}/object/issue/fields/customfield_x005f10021" containerType="SINGLE" label="customfield_10021" name="customfield_10021" type="string"/>
+<Field __index="39" __sourcePath="{}/object/issue/fields/customfield_x005f10100" containerType="SINGLE" label="customfield_10100" name="customfield_10100" type="string"/>
+<Field __index="40" __sourcePath="{}/object/issue/fields/description" containerType="SINGLE" label="description" name="description" type="string"/>
+<Field __index="41" __sourcePath="{}/object/issue/fields/environment" containerType="SINGLE" label="environment" name="environment" type="string"/>
+<Field __index="42" __sourcePath="{}/object/issue/fields/issuetype/description" containerType="SINGLE" label="description" name="description_1" type="string"/>
+<Field __index="43" __sourcePath="{}/object/issue/fields/issuetype/iconUrl" containerType="SINGLE" label="iconUrl" name="iconUrl" type="string"/>
+<Field __index="44" __sourcePath="{}/object/issue/fields/issuetype/id" containerType="SINGLE" label="id" name="id" type="string"/>
+<Field __index="45" __sourcePath="{}/object/issue/fields/issuetype/name" containerType="SINGLE" label="name" name="name_1" type="string"/>
+<Field __index="46" __sourcePath="{}/object/issue/fields/issuetype/self" containerType="SINGLE" label="self" name="self_1" type="string"/>
+<Field __index="47" __sourcePath="{}/object/issue/fields/issuetype/subtask" containerType="SINGLE" label="subtask" name="subtask" type="boolean"/>
+<Field __index="48" __sourcePath="{}/object/issue/fields/lastViewed" containerType="SINGLE" label="lastViewed" name="lastViewed" type="string"/>
+<Field __index="49" __sourcePath="{}/object/issue/fields/priority/iconUrl" containerType="SINGLE" label="iconUrl" name="iconUrl_1" type="string"/>
+<Field __index="50" __sourcePath="{}/object/issue/fields/priority/id" containerType="SINGLE" label="id" name="id_1" type="string"/>
+<Field __index="51" __sourcePath="{}/object/issue/fields/priority/name" containerType="SINGLE" label="name" name="name_2" type="string"/>
+<Field __index="52" __sourcePath="{}/object/issue/fields/priority/self" containerType="SINGLE" label="self" name="self_2" type="string"/>
+<Field __index="53" __sourcePath="{}/object/issue/fields/progress/progress" containerType="SINGLE" label="progress" name="progress_1" type="integer"/>
+<Field __index="54" __sourcePath="{}/object/issue/fields/progress/total" containerType="SINGLE" label="total" name="total_2" type="integer"/>
+<Field __index="55" __sourcePath="{}/object/issue/fields/project/avatarUrls/_x00316x16" containerType="SINGLE" label="16x16" name="_16x16_1" type="string"/>
+<Field __index="56" __sourcePath="{}/object/issue/fields/project/avatarUrls/_x00324x24" containerType="SINGLE" label="24x24" name="_24x24_1" type="string"/>
+<Field __index="57" __sourcePath="{}/object/issue/fields/project/avatarUrls/_x00332x32" containerType="SINGLE" label="32x32" name="_32x32_1" type="string"/>
+<Field __index="58" __sourcePath="{}/object/issue/fields/project/avatarUrls/_x00348x48" containerType="SINGLE" label="48x48" name="_48x48_1" type="string"/>
+<Field __index="59" __sourcePath="{}/object/issue/fields/project/id" containerType="SINGLE" label="id" name="id_2" type="string"/>
+<Field __index="60" __sourcePath="{}/object/issue/fields/project/key" containerType="SINGLE" label="key" name="key" type="string"/>
+<Field __index="61" __sourcePath="{}/object/issue/fields/project/name" containerType="SINGLE" label="name" name="name_3" type="string"/>
+<Field __index="62" __sourcePath="{}/object/issue/fields/project/self" containerType="SINGLE" label="self" name="self_3" type="string"/>
+<Field __index="63" __sourcePath="{}/object/issue/fields/reporter/active" containerType="SINGLE" label="active" name="active_1" type="boolean"/>
+<Field __index="64" __sourcePath="{}/object/issue/fields/reporter/avatarUrls/_x00316x16" containerType="SINGLE" label="16x16" name="_16x16_2" type="string"/>
+<Field __index="65" __sourcePath="{}/object/issue/fields/reporter/avatarUrls/_x00324x24" containerType="SINGLE" label="24x24" name="_24x24_2" type="string"/>
+<Field __index="66" __sourcePath="{}/object/issue/fields/reporter/avatarUrls/_x00332x32" containerType="SINGLE" label="32x32" name="_32x32_2" type="string"/>
+<Field __index="67" __sourcePath="{}/object/issue/fields/reporter/avatarUrls/_x00348x48" containerType="SINGLE" label="48x48" name="_48x48_2" type="string"/>
+<Field __index="68" __sourcePath="{}/object/issue/fields/reporter/displayName" containerType="SINGLE" label="displayName" name="displayName_1" type="string"/>
+<Field __index="69" __sourcePath="{}/object/issue/fields/reporter/emailAddress" containerType="SINGLE" label="emailAddress" name="emailAddress_1" type="string"/>
+<Field __index="70" __sourcePath="{}/object/issue/fields/reporter/name" containerType="SINGLE" label="name" name="name_4" type="string"/>
+<Field __index="71" __sourcePath="{}/object/issue/fields/reporter/self" containerType="SINGLE" label="self" name="self_4" type="string"/>
+<Field __index="72" __sourcePath="{}/object/issue/fields/status/description" containerType="SINGLE" label="description" name="description_2" type="string"/>
+<Field __index="73" __sourcePath="{}/object/issue/fields/status/iconUrl" containerType="SINGLE" label="iconUrl" name="iconUrl_2" type="string"/>
+<Field __index="74" __sourcePath="{}/object/issue/fields/status/id" containerType="SINGLE" label="id" name="id_3" type="string"/>
+<Field __index="75" __sourcePath="{}/object/issue/fields/status/name" containerType="SINGLE" label="name" name="name_5" type="string"/>
+<Field __index="76" __sourcePath="{}/object/issue/fields/status/self" containerType="SINGLE" label="self" name="self_5" type="string"/>
+<Field __index="77" __sourcePath="{}/object/issue/fields/status/statusCategory/colorName" containerType="SINGLE" label="colorName" name="colorName" type="string"/>
+<Field __index="78" __sourcePath="{}/object/issue/fields/status/statusCategory/id" containerType="SINGLE" label="id" name="id_4" type="integer"/>
+<Field __index="79" __sourcePath="{}/object/issue/fields/status/statusCategory/key" containerType="SINGLE" label="key" name="key_1" type="string"/>
+<Field __index="80" __sourcePath="{}/object/issue/fields/status/statusCategory/name" containerType="SINGLE" label="name" name="name_6" type="string"/>
+<Field __index="81" __sourcePath="{}/object/issue/fields/status/statusCategory/self" containerType="SINGLE" label="self" name="self_6" type="string"/>
+<Field __index="82" __sourcePath="{}/object/issue/fields/summary" containerType="SINGLE" label="summary" name="summary" type="string"/>
+<Field __index="83" __sourcePath="{}/object/issue/fields/updated" containerType="SINGLE" label="updated" name="updated" type="string"/>
+<Field __index="84" __sourcePath="{}/object/issue/fields/votes/hasVoted" containerType="SINGLE" label="hasVoted" name="hasVoted" type="boolean"/>
+<Field __index="85" __sourcePath="{}/object/issue/fields/votes/self" containerType="SINGLE" label="self" name="self_7" type="string"/>
+<Field __index="86" __sourcePath="{}/object/issue/fields/votes/votes" containerType="SINGLE" label="votes" name="votes" type="integer"/>
+<Field __index="87" __sourcePath="{}/object/issue/fields/watches/isWatching" containerType="SINGLE" label="isWatching" name="isWatching" type="boolean"/>
+<Field __index="88" __sourcePath="{}/object/issue/fields/watches/self" containerType="SINGLE" label="self" name="self_8" type="string"/>
+<Field __index="89" __sourcePath="{}/object/issue/fields/watches/watchCount" containerType="SINGLE" label="watchCount" name="watchCount" type="integer"/>
+<Field __index="90" __sourcePath="{}/object/issue/fields/worklog/maxResults" containerType="SINGLE" label="maxResults" name="maxResults_1" type="integer"/>
+<Field __index="91" __sourcePath="{}/object/issue/fields/worklog/startAt" containerType="SINGLE" label="startAt" name="startAt_1" type="integer"/>
+<Field __index="92" __sourcePath="{}/object/issue/fields/worklog/total" containerType="SINGLE" label="total" name="total_3" type="integer"/>
+<Field __index="93" __sourcePath="{}/object/issue/fields/workratio" containerType="SINGLE" label="workratio" name="workratio" type="integer"/>
+<Field __index="94" __sourcePath="{}/object/issue/id" containerType="SINGLE" label="id" name="id_5" type="string"/>
+<Field __index="95" __sourcePath="{}/object/issue/key" containerType="SINGLE" label="key" name="key_2" type="string"/>
+<Field __index="96" __sourcePath="{}/object/issue/self" containerType="SINGLE" label="self" name="self_9" type="string"/>
+<Field __index="97" __sourcePath="{}/object/timestamp" containerType="SINGLE" label="timestamp" name="timestamp" type="number"/>
+<Field __index="98" __sourcePath="{}/object/user/active" containerType="SINGLE" label="active" name="active_2" type="boolean"/>
+<Field __index="99" __sourcePath="{}/object/user/avatarUrls/_x00316x16" containerType="SINGLE" label="16x16" name="_16x16_3" type="string"/>
+<Field __index="100" __sourcePath="{}/object/user/avatarUrls/_x00324x24" containerType="SINGLE" label="24x24" name="_24x24_3" type="string"/>
+<Field __index="101" __sourcePath="{}/object/user/avatarUrls/_x00332x32" containerType="SINGLE" label="32x32" name="_32x32_3" type="string"/>
+<Field __index="102" __sourcePath="{}/object/user/avatarUrls/_x00348x48" containerType="SINGLE" label="48x48" name="_48x48_3" type="string"/>
+<Field __index="103" __sourcePath="{}/object/user/displayName" containerType="SINGLE" label="displayName" name="displayName_2" type="string"/>
+<Field __index="104" __sourcePath="{}/object/user/emailAddress" containerType="SINGLE" label="emailAddress" name="emailAddress_2" type="string"/>
+<Field __index="105" __sourcePath="{}/object/user/name" containerType="SINGLE" label="name" name="name_7" type="string"/>
+<Field __index="106" __sourcePath="{}/object/user/self" containerType="SINGLE" label="self" name="self_10" type="string"/>
+<Field __index="107" __sourcePath="{}/object/webhookEvent" containerType="SINGLE" label="webhookEvent" name="webhookEvent" type="string"/>
+</Record>
+</Metadata>
+<Dictionary>
+<Entry id="DictionaryEntry0" input="true" name="inputPayload" output="false" type="object"/>
+<Entry id="DictionaryEntry1" input="false" name="outputPayload" output="true" type="object"/>
+<Entry dictval.__javaType="java.lang.String" id="DictionaryEntry2" input="true" name="sfdcId" output="false" type="string"/>
+</Dictionary>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" guiName="Foreach 'object' -&gt; 'Case'" guiX="460" guiY="20" id="FOREACH_OBJECT_CASE" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+//END -> DO NOT REMOVE
+output.Id = inputArguments.sfdcId;
+output.JIRA_Url__c = ' ';
+output.Create_JIRA__c = false;]]></attr>
+</Node>
+<Node charset="UTF-8" enabled="enabled" fileURL="dict:inputPayload" guiName="JSON READER" guiX="20" guiY="20" id="JSON_READER0" type="JSON_READER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context xpath="/root">
+  <Context outPort="0" sequenceField="__id" xpath="object">
+    <Mapping cloverField="progress" trim="true" xpath="issue/fields/aggregateprogress/progress"/>
+    <Mapping cloverField="total" trim="true" xpath="issue/fields/aggregateprogress/total"/>
+    <Mapping cloverField="maxResults" trim="true" xpath="issue/fields/comment/maxResults"/>
+    <Mapping cloverField="startAt" trim="true" xpath="issue/fields/comment/startAt"/>
+    <Mapping cloverField="total_1" trim="true" xpath="issue/fields/comment/total"/>
+    <Mapping cloverField="created" trim="true" xpath="issue/fields/created"/>
+    <Mapping cloverField="active" trim="true" xpath="issue/fields/creator/active"/>
+    <Mapping cloverField="_16x16" trim="true" xpath="issue/fields/creator/avatarUrls/_x00316x16"/>
+    <Mapping cloverField="_24x24" trim="true" xpath="issue/fields/creator/avatarUrls/_x00324x24"/>
+    <Mapping cloverField="_32x32" trim="true" xpath="issue/fields/creator/avatarUrls/_x00332x32"/>
+    <Mapping cloverField="_48x48" trim="true" xpath="issue/fields/creator/avatarUrls/_x00348x48"/>
+    <Mapping cloverField="displayName" trim="true" xpath="issue/fields/creator/displayName"/>
+    <Mapping cloverField="emailAddress" trim="true" xpath="issue/fields/creator/emailAddress"/>
+    <Mapping cloverField="name" trim="true" xpath="issue/fields/creator/name"/>
+    <Mapping cloverField="self" trim="true" xpath="issue/fields/creator/self"/>
+    <Mapping cloverField="customfield_10021" trim="true" xpath="issue/fields/customfield_x005f10021"/>
+    <Mapping cloverField="customfield_10100" trim="true" xpath="issue/fields/customfield_x005f10100"/>
+    <Mapping cloverField="description" trim="true" xpath="issue/fields/description"/>
+    <Mapping cloverField="environment" trim="true" xpath="issue/fields/environment"/>
+    <Mapping cloverField="description_1" trim="true" xpath="issue/fields/issuetype/description"/>
+    <Mapping cloverField="iconUrl" trim="true" xpath="issue/fields/issuetype/iconUrl"/>
+    <Mapping cloverField="id" trim="true" xpath="issue/fields/issuetype/id"/>
+    <Mapping cloverField="name_1" trim="true" xpath="issue/fields/issuetype/name"/>
+    <Mapping cloverField="self_1" trim="true" xpath="issue/fields/issuetype/self"/>
+    <Mapping cloverField="subtask" trim="true" xpath="issue/fields/issuetype/subtask"/>
+    <Mapping cloverField="lastViewed" trim="true" xpath="issue/fields/lastViewed"/>
+    <Mapping cloverField="iconUrl_1" trim="true" xpath="issue/fields/priority/iconUrl"/>
+    <Mapping cloverField="id_1" trim="true" xpath="issue/fields/priority/id"/>
+    <Mapping cloverField="name_2" trim="true" xpath="issue/fields/priority/name"/>
+    <Mapping cloverField="self_2" trim="true" xpath="issue/fields/priority/self"/>
+    <Mapping cloverField="progress_1" trim="true" xpath="issue/fields/progress/progress"/>
+    <Mapping cloverField="total_2" trim="true" xpath="issue/fields/progress/total"/>
+    <Mapping cloverField="_16x16_1" trim="true" xpath="issue/fields/project/avatarUrls/_x00316x16"/>
+    <Mapping cloverField="_24x24_1" trim="true" xpath="issue/fields/project/avatarUrls/_x00324x24"/>
+    <Mapping cloverField="_32x32_1" trim="true" xpath="issue/fields/project/avatarUrls/_x00332x32"/>
+    <Mapping cloverField="_48x48_1" trim="true" xpath="issue/fields/project/avatarUrls/_x00348x48"/>
+    <Mapping cloverField="id_2" trim="true" xpath="issue/fields/project/id"/>
+    <Mapping cloverField="key" trim="true" xpath="issue/fields/project/key"/>
+    <Mapping cloverField="name_3" trim="true" xpath="issue/fields/project/name"/>
+    <Mapping cloverField="self_3" trim="true" xpath="issue/fields/project/self"/>
+    <Mapping cloverField="active_1" trim="true" xpath="issue/fields/reporter/active"/>
+    <Mapping cloverField="_16x16_2" trim="true" xpath="issue/fields/reporter/avatarUrls/_x00316x16"/>
+    <Mapping cloverField="_24x24_2" trim="true" xpath="issue/fields/reporter/avatarUrls/_x00324x24"/>
+    <Mapping cloverField="_32x32_2" trim="true" xpath="issue/fields/reporter/avatarUrls/_x00332x32"/>
+    <Mapping cloverField="_48x48_2" trim="true" xpath="issue/fields/reporter/avatarUrls/_x00348x48"/>
+    <Mapping cloverField="displayName_1" trim="true" xpath="issue/fields/reporter/displayName"/>
+    <Mapping cloverField="emailAddress_1" trim="true" xpath="issue/fields/reporter/emailAddress"/>
+    <Mapping cloverField="name_4" trim="true" xpath="issue/fields/reporter/name"/>
+    <Mapping cloverField="self_4" trim="true" xpath="issue/fields/reporter/self"/>
+    <Mapping cloverField="description_2" trim="true" xpath="issue/fields/status/description"/>
+    <Mapping cloverField="iconUrl_2" trim="true" xpath="issue/fields/status/iconUrl"/>
+    <Mapping cloverField="id_3" trim="true" xpath="issue/fields/status/id"/>
+    <Mapping cloverField="name_5" trim="true" xpath="issue/fields/status/name"/>
+    <Mapping cloverField="self_5" trim="true" xpath="issue/fields/status/self"/>
+    <Mapping cloverField="colorName" trim="true" xpath="issue/fields/status/statusCategory/colorName"/>
+    <Mapping cloverField="id_4" trim="true" xpath="issue/fields/status/statusCategory/id"/>
+    <Mapping cloverField="key_1" trim="true" xpath="issue/fields/status/statusCategory/key"/>
+    <Mapping cloverField="name_6" trim="true" xpath="issue/fields/status/statusCategory/name"/>
+    <Mapping cloverField="self_6" trim="true" xpath="issue/fields/status/statusCategory/self"/>
+    <Mapping cloverField="summary" trim="true" xpath="issue/fields/summary"/>
+    <Mapping cloverField="updated" trim="true" xpath="issue/fields/updated"/>
+    <Mapping cloverField="hasVoted" trim="true" xpath="issue/fields/votes/hasVoted"/>
+    <Mapping cloverField="self_7" trim="true" xpath="issue/fields/votes/self"/>
+    <Mapping cloverField="votes" trim="true" xpath="issue/fields/votes/votes"/>
+    <Mapping cloverField="isWatching" trim="true" xpath="issue/fields/watches/isWatching"/>
+    <Mapping cloverField="self_8" trim="true" xpath="issue/fields/watches/self"/>
+    <Mapping cloverField="watchCount" trim="true" xpath="issue/fields/watches/watchCount"/>
+    <Mapping cloverField="maxResults_1" trim="true" xpath="issue/fields/worklog/maxResults"/>
+    <Mapping cloverField="startAt_1" trim="true" xpath="issue/fields/worklog/startAt"/>
+    <Mapping cloverField="total_3" trim="true" xpath="issue/fields/worklog/total"/>
+    <Mapping cloverField="workratio" trim="true" xpath="issue/fields/workratio"/>
+    <Mapping cloverField="id_5" trim="true" xpath="issue/id"/>
+    <Mapping cloverField="key_2" trim="true" xpath="issue/key"/>
+    <Mapping cloverField="self_9" trim="true" xpath="issue/self"/>
+    <Mapping cloverField="timestamp" trim="true" xpath="timestamp"/>
+    <Mapping cloverField="active_2" trim="true" xpath="user/active"/>
+    <Mapping cloverField="_16x16_3" trim="true" xpath="user/avatarUrls/_x00316x16"/>
+    <Mapping cloverField="_24x24_3" trim="true" xpath="user/avatarUrls/_x00324x24"/>
+    <Mapping cloverField="_32x32_3" trim="true" xpath="user/avatarUrls/_x00332x32"/>
+    <Mapping cloverField="_48x48_3" trim="true" xpath="user/avatarUrls/_x00348x48"/>
+    <Mapping cloverField="displayName_2" trim="true" xpath="user/displayName"/>
+    <Mapping cloverField="emailAddress_2" trim="true" xpath="user/emailAddress"/>
+    <Mapping cloverField="name_7" trim="true" xpath="user/name"/>
+    <Mapping cloverField="self_10" trim="true" xpath="user/self"/>
+    <Mapping cloverField="webhookEvent" trim="true" xpath="webhookEvent"/>
+  </Context>
+</Context>
+]]></attr>
+<attr name="_data_format"><![CDATA[JSON]]></attr>
+<attr name="jsonSchemaURL"><![CDATA[./src/main/resources/jira-events/issue-delete.json]]></attr>
+</Node>
+<Node cacheInMemory="true" enabled="enabled" fileURL="dict:outputPayload" guiName="Map&lt;k,v&gt; WRITER" guiX="900" guiY="20" id="MAP_WRITER0" type="MAP_WRITER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<clover:collection clover:name="Case" xmlns:clover="http://www.cloveretl.com/ns/xmlmapping">
+  <item clover:inPort="0">
+    <Origin>$0.Origin</Origin>
+    <clover:element clover:name="PotentialLiability__c">$0.PotentialLiability__c</clover:element>
+    <LastModifiedDate clover:dataType="java.util.Calendar">$0.LastModifiedDate</LastModifiedDate>
+    <AccountId clover:dataType="java.lang.String">$0.AccountId</AccountId>
+    <Description clover:dataType="java.lang.String">$0.Description</Description>
+    <SuppliedCompany clover:dataType="java.lang.String">$0.SuppliedCompany</SuppliedCompany>
+    <clover:element clover:name="Create_JIRA__c" clover:dataType="java.lang.Boolean">$0.Create_JIRA__c</clover:element>
+    <LastReferencedDate clover:dataType="java.util.Calendar">$0.LastReferencedDate</LastReferencedDate>
+    <ContactId clover:dataType="java.lang.String">$0.ContactId</ContactId>
+    <IsClosed clover:dataType="java.lang.Boolean">$0.IsClosed</IsClosed>
+    <Reason>$0.Reason</Reason>
+    <SuppliedEmail clover:dataType="java.lang.String">$0.SuppliedEmail</SuppliedEmail>
+    <SuppliedName clover:dataType="java.lang.String">$0.SuppliedName</SuppliedName>
+    <OwnerId clover:dataType="java.lang.String">$0.OwnerId</OwnerId>
+    <CreatedById clover:dataType="java.lang.String">$0.CreatedById</CreatedById>
+    <SuppliedPhone clover:dataType="java.lang.String">$0.SuppliedPhone</SuppliedPhone>
+    <CaseNumber clover:dataType="java.lang.String">$0.CaseNumber</CaseNumber>
+    <clover:element clover:name="Product__c">$0.Product__c</clover:element>
+    <clover:element clover:name="JIRA_Url__c" clover:dataType="java.lang.String">$0.JIRA_Url__c</clover:element>
+    <ParentId clover:dataType="java.lang.String">$0.ParentId</ParentId>
+    <Status>$0.Status</Status>
+    <IsDeleted clover:dataType="java.lang.Boolean">$0.IsDeleted</IsDeleted>
+    <Priority>$0.Priority</Priority>
+    <LastViewedDate clover:dataType="java.util.Calendar">$0.LastViewedDate</LastViewedDate>
+    <Subject clover:dataType="java.lang.String">$0.Subject</Subject>
+    <SystemModstamp clover:dataType="java.util.Calendar">$0.SystemModstamp</SystemModstamp>
+    <Type>$0.Type</Type>
+    <IsEscalated clover:dataType="java.lang.Boolean">$0.IsEscalated</IsEscalated>
+    <clover:element clover:name="SLAViolation__c">$0.SLAViolation__c</clover:element>
+    <CreatedDate clover:dataType="java.util.Calendar">$0.CreatedDate</CreatedDate>
+    <clover:element clover:name="EngineeringReqNumber__c" clover:dataType="java.lang.String">$0.EngineeringReqNumber__c</clover:element>
+    <Id clover:dataType="java.lang.String">$0.Id</Id>
+    <ClosedDate clover:dataType="java.util.Calendar">$0.ClosedDate</ClosedDate>
+    <AssetId clover:dataType="java.lang.String">$0.AssetId</AssetId>
+    <LastModifiedById clover:dataType="java.lang.String">$0.LastModifiedById</LastModifiedById>
+  </item>
+</clover:collection>]]></attr>
+<attr name="_data_format"><![CDATA[MAP]]></attr>
+<attr name="__metadata"><![CDATA[true]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="FOREACH_OBJECT_CASE:0" guiBendpoints="" id="Edge1" inPort="Port 0 (in)" metadata="b14cba7a-2cc8-44ed-95dc-11df107b921b" outPort="Port 0 (out)" toNode="MAP_WRITER0:0"/>
+<Edge debugMode="true" fromNode="JSON_READER0:0" guiBendpoints="" id="Edge0" inPort="Port 0 (in)" metadata="518a6387-3791-42de-87b7-5872ce712f6f" outPort="Port 0 (out)" toNode="FOREACH_OBJECT_CASE:0"/>
+</Phase>
+</Graph>

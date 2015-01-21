@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph __version="3.5.0" author="anirudhpandit" created="Tue Sep 09 22:15:29 PDT 2014" description="Pojo To Map" guiVersion="3.4.4.P" id="1410339338440" licenseCode="Unlicensed" licenseType="Unknown" modified="Tue Sep 09 22:15:29 PDT 2014" modifiedBy="anirudhpandit" name="Pojo_To_Map" revision="1.0" showComponentDetails="false">
+<Global>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/Map" _dataStructure="OBJECT" _id="__id" _type="Output" id="a890de9a-cfcd-405a-8529-5efc49973e83">
+<Record fieldDelimiter="," name="Map" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="81" __sourcePath="{}/Map/UNumberScsm" containerType="SINGLE" label="UNumberScsm" name="UNumberScsm" type="string"/>
+<Field __implementationClass="java.lang.String" __index="42" __sourcePath="{}/Map/UTest" containerType="SINGLE" label="UTest" name="UTest" type="string"/>
+<Field __implementationClass="java.lang.String" __index="10" __sourcePath="{}/Map/UVip" containerType="SINGLE" label="UVip" name="UVip" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="37" __sourcePath="{}/Map/active" containerType="SINGLE" label="active" name="active" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="35" __sourcePath="{}/Map/activityDue" containerType="SINGLE" label="activityDue" name="activityDue" type="string"/>
+<Field __implementationClass="java.lang.String" __index="75" __sourcePath="{}/Map/approval" containerType="SINGLE" label="approval" name="approval" type="string"/>
+<Field __implementationClass="java.lang.String" __index="69" __sourcePath="{}/Map/approvalHistory" containerType="SINGLE" label="approvalHistory" name="approvalHistory" type="string"/>
+<Field __implementationClass="java.lang.String" __index="38" __sourcePath="{}/Map/approvalSet" containerType="SINGLE" label="approvalSet" name="approvalSet" type="string"/>
+<Field __implementationClass="java.lang.String" __index="9" __sourcePath="{}/Map/assignedTo" containerType="SINGLE" label="assignedTo" name="assignedTo" type="string"/>
+<Field __implementationClass="java.lang.String" __index="29" __sourcePath="{}/Map/assignmentGroup" containerType="SINGLE" label="assignmentGroup" name="assignmentGroup" type="string"/>
+<Field __implementationClass="java.lang.String" __index="22" __sourcePath="{}/Map/businessDuration" containerType="SINGLE" label="businessDuration" name="businessDuration" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="84" __sourcePath="{}/Map/businessStc" containerType="SINGLE" label="businessStc" name="businessStc" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="16" __sourcePath="{}/Map/calendarDuration" containerType="SINGLE" label="calendarDuration" name="calendarDuration" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="21" __sourcePath="{}/Map/calendarStc" containerType="SINGLE" label="calendarStc" name="calendarStc" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="32" __sourcePath="{}/Map/callerId" containerType="SINGLE" label="callerId" name="callerId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="30" __sourcePath="{}/Map/category" containerType="SINGLE" label="category" name="category" type="string"/>
+<Field __implementationClass="java.lang.String" __index="8" __sourcePath="{}/Map/causedBy" containerType="SINGLE" label="causedBy" name="causedBy" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="60" __sourcePath="{}/Map/childIncidents" containerType="SINGLE" label="childIncidents" name="childIncidents" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="34" __sourcePath="{}/Map/closeCode" containerType="SINGLE" label="closeCode" name="closeCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="54" __sourcePath="{}/Map/closeNotes" containerType="SINGLE" label="closeNotes" name="closeNotes" type="string"/>
+<Field __implementationClass="java.lang.String" __index="47" __sourcePath="{}/Map/closedAt" containerType="SINGLE" label="closedAt" name="closedAt" type="string"/>
+<Field __implementationClass="java.lang.String" __index="23" __sourcePath="{}/Map/closedBy" containerType="SINGLE" label="closedBy" name="closedBy" type="string"/>
+<Field __implementationClass="java.lang.String" __index="18" __sourcePath="{}/Map/cmdbCi" containerType="SINGLE" label="cmdbCi" name="cmdbCi" type="string"/>
+<Field __implementationClass="java.lang.String" __index="87" __sourcePath="{}/Map/comments" containerType="SINGLE" label="comments" name="comments" type="string"/>
+<Field __implementationClass="java.lang.String" __index="15" __sourcePath="{}/Map/commentsAndWorkNotes" containerType="SINGLE" label="commentsAndWorkNotes" name="commentsAndWorkNotes" type="string"/>
+<Field __implementationClass="java.lang.String" __index="36" __sourcePath="{}/Map/company" containerType="SINGLE" label="company" name="company" type="string"/>
+<Field __implementationClass="java.lang.String" __index="39" __sourcePath="{}/Map/contactType" containerType="SINGLE" label="contactType" name="contactType" type="string"/>
+<Field __implementationClass="java.lang.String" __index="70" __sourcePath="{}/Map/correlationDisplay" containerType="SINGLE" label="correlationDisplay" name="correlationDisplay" type="string"/>
+<Field __implementationClass="java.lang.String" __index="72" __sourcePath="{}/Map/correlationId" containerType="SINGLE" label="correlationId" name="correlationId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="85" __sourcePath="{}/Map/deliveryPlan" containerType="SINGLE" label="deliveryPlan" name="deliveryPlan" type="string"/>
+<Field __implementationClass="java.lang.String" __index="40" __sourcePath="{}/Map/deliveryTask" containerType="SINGLE" label="deliveryTask" name="deliveryTask" type="string"/>
+<Field __implementationClass="java.lang.String" __index="20" __sourcePath="{}/Map/description" containerType="SINGLE" label="description" name="description" type="string"/>
+<Field __implementationClass="java.lang.String" __index="66" __sourcePath="{}/Map/dueDate" containerType="SINGLE" label="dueDate" name="dueDate" type="string"/>
+<Field __implementationClass="java.lang.String" __index="46" __sourcePath="{}/Map/encodedQuery" containerType="SINGLE" label="encodedQuery" name="encodedQuery" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="86" __sourcePath="{}/Map/escalation" containerType="SINGLE" label="escalation" name="escalation" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="71" __sourcePath="{}/Map/excludeColumns" containerType="SINGLE" label="excludeColumns" name="excludeColumns" type="string"/>
+<Field __implementationClass="java.lang.String" __index="68" __sourcePath="{}/Map/expectedStart" containerType="SINGLE" label="expectedStart" name="expectedStart" type="string"/>
+<Field __implementationClass="java.lang.String" __index="2" __sourcePath="{}/Map/firstRow" containerType="SINGLE" label="firstRow" name="firstRow" type="string"/>
+<Field __implementationClass="java.lang.String" __index="78" __sourcePath="{}/Map/followUp" containerType="SINGLE" label="followUp" name="followUp" type="string"/>
+<Field __implementationClass="java.lang.String" __index="57" __sourcePath="{}/Map/groupList" containerType="SINGLE" label="groupList" name="groupList" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="13" __sourcePath="{}/Map/impact" containerType="SINGLE" label="impact" name="impact" type="decimal"/>
+<Field __implementationClass="java.math.BigDecimal" __index="80" __sourcePath="{}/Map/incidentState" containerType="SINGLE" label="incidentState" name="incidentState" type="decimal"/>
+<Field __implementationClass="java.lang.Boolean" __index="44" __sourcePath="{}/Map/knowledge" containerType="SINGLE" label="knowledge" name="knowledge" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="17" __sourcePath="{}/Map/lastRow" containerType="SINGLE" label="lastRow" name="lastRow" type="string"/>
+<Field __implementationClass="java.lang.String" __index="24" __sourcePath="{}/Map/limit" containerType="SINGLE" label="limit" name="limit" type="string"/>
+<Field __implementationClass="java.lang.String" __index="6" __sourcePath="{}/Map/location" containerType="SINGLE" label="location" name="location" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="67" __sourcePath="{}/Map/madeSla" containerType="SINGLE" label="madeSla" name="madeSla" type="boolean"/>
+<Field __implementationClass="java.math.BigDecimal" __index="62" __sourcePath="{}/Map/notify" containerType="SINGLE" label="notify" name="notify" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="28" __sourcePath="{}/Map/number" containerType="SINGLE" label="number" name="number" type="string"/>
+<Field __implementationClass="java.lang.String" __index="82" __sourcePath="{}/Map/openedAt" containerType="SINGLE" label="openedAt" name="openedAt" type="string"/>
+<Field __implementationClass="java.lang.String" __index="26" __sourcePath="{}/Map/openedBy" containerType="SINGLE" label="openedBy" name="openedBy" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="59" __sourcePath="{}/Map/order" containerType="SINGLE" label="order" name="order" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="4" __sourcePath="{}/Map/orderBy" containerType="SINGLE" label="orderBy" name="orderBy" type="string"/>
+<Field __implementationClass="java.lang.String" __index="79" __sourcePath="{}/Map/orderByDesc" containerType="SINGLE" label="orderByDesc" name="orderByDesc" type="string"/>
+<Field __implementationClass="java.lang.String" __index="27" __sourcePath="{}/Map/parent" containerType="SINGLE" label="parent" name="parent" type="string"/>
+<Field __implementationClass="java.lang.String" __index="1" __sourcePath="{}/Map/parentIncident" containerType="SINGLE" label="parentIncident" name="parentIncident" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="19" __sourcePath="{}/Map/priority" containerType="SINGLE" label="priority" name="priority" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="7" __sourcePath="{}/Map/problemId" containerType="SINGLE" label="problemId" name="problemId" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="88" __sourcePath="{}/Map/reassignmentCount" containerType="SINGLE" label="reassignmentCount" name="reassignmentCount" type="decimal"/>
+<Field __implementationClass="java.math.BigDecimal" __index="65" __sourcePath="{}/Map/reopenCount" containerType="SINGLE" label="reopenCount" name="reopenCount" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="77" __sourcePath="{}/Map/resolvedAt" containerType="SINGLE" label="resolvedAt" name="resolvedAt" type="string"/>
+<Field __implementationClass="java.lang.String" __index="52" __sourcePath="{}/Map/resolvedBy" containerType="SINGLE" label="resolvedBy" name="resolvedBy" type="string"/>
+<Field __implementationClass="java.lang.String" __index="56" __sourcePath="{}/Map/rfc" containerType="SINGLE" label="rfc" name="rfc" type="string"/>
+<Field __implementationClass="java.lang.String" __index="12" __sourcePath="{}/Map/serviceOffering" containerType="SINGLE" label="serviceOffering" name="serviceOffering" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="76" __sourcePath="{}/Map/severity" containerType="SINGLE" label="severity" name="severity" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="33" __sourcePath="{}/Map/shortDescription" containerType="SINGLE" label="shortDescription" name="shortDescription" type="string"/>
+<Field __implementationClass="java.lang.String" __index="0" __sourcePath="{}/Map/skills" containerType="SINGLE" label="skills" name="skills" type="string"/>
+<Field __implementationClass="java.lang.String" __index="53" __sourcePath="{}/Map/slaDue" containerType="SINGLE" label="slaDue" name="slaDue" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="50" __sourcePath="{}/Map/state" containerType="SINGLE" label="state" name="state" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="83" __sourcePath="{}/Map/subcategory" containerType="SINGLE" label="subcategory" name="subcategory" type="string"/>
+<Field __implementationClass="java.lang.String" __index="11" __sourcePath="{}/Map/sysClassName" containerType="SINGLE" label="sysClassName" name="sysClassName" type="string"/>
+<Field __implementationClass="java.lang.String" __index="58" __sourcePath="{}/Map/sysCreatedBy" containerType="SINGLE" label="sysCreatedBy" name="sysCreatedBy" type="string"/>
+<Field __implementationClass="java.lang.String" __index="74" __sourcePath="{}/Map/sysCreatedOn" containerType="SINGLE" label="sysCreatedOn" name="sysCreatedOn" type="string"/>
+<Field __implementationClass="java.lang.String" __index="25" __sourcePath="{}/Map/sysDomain" containerType="SINGLE" label="sysDomain" name="sysDomain" type="string"/>
+<Field __implementationClass="java.lang.String" __index="31" __sourcePath="{}/Map/sysId" containerType="SINGLE" label="sysId" name="sysId" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="73" __sourcePath="{}/Map/sysModCount" containerType="SINGLE" label="sysModCount" name="sysModCount" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="64" __sourcePath="{}/Map/sysUpdatedBy" containerType="SINGLE" label="sysUpdatedBy" name="sysUpdatedBy" type="string"/>
+<Field __implementationClass="java.lang.String" __index="51" __sourcePath="{}/Map/sysUpdatedOn" containerType="SINGLE" label="sysUpdatedOn" name="sysUpdatedOn" type="string"/>
+<Field __implementationClass="java.lang.String" __index="3" __sourcePath="{}/Map/timeWorked" containerType="SINGLE" label="timeWorked" name="timeWorked" type="string"/>
+<Field __implementationClass="java.lang.String" __index="43" __sourcePath="{}/Map/uponApproval" containerType="SINGLE" label="uponApproval" name="uponApproval" type="string"/>
+<Field __implementationClass="java.lang.String" __index="48" __sourcePath="{}/Map/uponReject" containerType="SINGLE" label="uponReject" name="uponReject" type="string"/>
+<Field __implementationClass="java.math.BigDecimal" __index="14" __sourcePath="{}/Map/urgency" containerType="SINGLE" label="urgency" name="urgency" type="decimal"/>
+<Field __implementationClass="java.lang.String" __index="45" __sourcePath="{}/Map/useView" containerType="SINGLE" label="useView" name="useView" type="string"/>
+<Field __implementationClass="java.lang.String" __index="61" __sourcePath="{}/Map/userInput" containerType="SINGLE" label="userInput" name="userInput" type="string"/>
+<Field __implementationClass="java.lang.String" __index="49" __sourcePath="{}/Map/watchList" containerType="SINGLE" label="watchList" name="watchList" type="string"/>
+<Field __implementationClass="java.lang.String" __index="41" __sourcePath="{}/Map/workEnd" containerType="SINGLE" label="workEnd" name="workEnd" type="string"/>
+<Field __implementationClass="java.lang.String" __index="5" __sourcePath="{}/Map/workNotes" containerType="SINGLE" label="workNotes" name="workNotes" type="string"/>
+<Field __implementationClass="java.lang.String" __index="63" __sourcePath="{}/Map/workNotesList" containerType="SINGLE" label="workNotesList" name="workNotesList" type="string"/>
+<Field __implementationClass="java.lang.String" __index="55" __sourcePath="{}/Map/workStart" containerType="SINGLE" label="workStart" name="workStart" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/object" _dataStructure="OBJECT" _id="__id" _type="Input" id="52dc744a-0176-446f-824d-7e966e261453">
+<Record fieldDelimiter="," name="String" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/object/text()" containerType="SINGLE" label="text()" name="text" type="string"/>
+</Record>
+</Metadata>
+<Dictionary>
+<Entry id="DictionaryEntry0" input="true" name="inputPayload" output="false" type="object"/>
+<Entry id="DictionaryEntry1" input="false" name="outputPayload" output="true" type="object"/>
+</Dictionary>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" fileURL="dict:inputPayload" guiName="Pojo READER" guiX="20" guiY="20" id="BEAN_READER0" type="BEAN_READER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context outPort="0" sequenceField="__id" xpath=".">
+  <Mapping cloverField="text" trim="true" xpath="."/>
+</Context>
+]]></attr>
+<attr name="_data_format"><![CDATA[JAVA]]></attr>
+<attr name="schema"><![CDATA[<?xml version="1.0" encoding="UTF-8"?><schema-object>
+  <typed-object-ref type-ref="java.lang.String"/>
+  <typed-object type="java.lang.String"/>
+</schema-object>
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'object' -&gt; 'Map'" guiX="460" guiY="20" id="FOREACH_OBJECT_MAP" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+//END -> DO NOT REMOVE
+output.openedBy = input.text;]]></attr>
+</Node>
+<Node cacheInMemory="true" enabled="enabled" fileURL="dict:outputPayload" guiName="Map&lt;k,v&gt; WRITER" guiX="900" guiY="20" id="MAP_WRITER0" type="MAP_WRITER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<Map xmlns:clover="http://www.cloveretl.com/ns/xmlmapping" clover:inPort="0">
+  <skills clover:dataType="java.lang.String">$0.skills</skills>
+  <parentIncident clover:dataType="java.lang.String">$0.parentIncident</parentIncident>
+  <firstRow clover:dataType="java.lang.String">$0.firstRow</firstRow>
+  <timeWorked clover:dataType="java.lang.String">$0.timeWorked</timeWorked>
+  <orderBy clover:dataType="java.lang.String">$0.orderBy</orderBy>
+  <workNotes clover:dataType="java.lang.String">$0.workNotes</workNotes>
+  <location clover:dataType="java.lang.String">$0.location</location>
+  <problemId clover:dataType="java.lang.String">$0.problemId</problemId>
+  <causedBy clover:dataType="java.lang.String">$0.causedBy</causedBy>
+  <assignedTo clover:dataType="java.lang.String">$0.assignedTo</assignedTo>
+  <UVip clover:dataType="java.lang.String">$0.UVip</UVip>
+  <sysClassName clover:dataType="java.lang.String">$0.sysClassName</sysClassName>
+  <serviceOffering clover:dataType="java.lang.String">$0.serviceOffering</serviceOffering>
+  <impact clover:dataType="java.math.BigDecimal">$0.impact</impact>
+  <urgency clover:dataType="java.math.BigDecimal">$0.urgency</urgency>
+  <commentsAndWorkNotes clover:dataType="java.lang.String">$0.commentsAndWorkNotes</commentsAndWorkNotes>
+  <calendarDuration clover:dataType="java.lang.String">$0.calendarDuration</calendarDuration>
+  <lastRow clover:dataType="java.lang.String">$0.lastRow</lastRow>
+  <cmdbCi clover:dataType="java.lang.String">$0.cmdbCi</cmdbCi>
+  <priority clover:dataType="java.math.BigDecimal">$0.priority</priority>
+  <description clover:dataType="java.lang.String">$0.description</description>
+  <calendarStc clover:dataType="java.math.BigDecimal">$0.calendarStc</calendarStc>
+  <businessDuration clover:dataType="java.lang.String">$0.businessDuration</businessDuration>
+  <closedBy clover:dataType="java.lang.String">$0.closedBy</closedBy>
+  <limit clover:dataType="java.lang.String">$0.limit</limit>
+  <sysDomain clover:dataType="java.lang.String">$0.sysDomain</sysDomain>
+  <openedBy clover:dataType="java.lang.String">$0.openedBy</openedBy>
+  <parent clover:dataType="java.lang.String">$0.parent</parent>
+  <number clover:dataType="java.lang.String">$0.number</number>
+  <assignmentGroup clover:dataType="java.lang.String">$0.assignmentGroup</assignmentGroup>
+  <category clover:dataType="java.lang.String">$0.category</category>
+  <sysId clover:dataType="java.lang.String">$0.sysId</sysId>
+  <callerId clover:dataType="java.lang.String">$0.callerId</callerId>
+  <shortDescription clover:dataType="java.lang.String">$0.shortDescription</shortDescription>
+  <closeCode clover:dataType="java.lang.String">$0.closeCode</closeCode>
+  <activityDue clover:dataType="java.lang.String">$0.activityDue</activityDue>
+  <company clover:dataType="java.lang.String">$0.company</company>
+  <active clover:dataType="java.lang.Boolean">$0.active</active>
+  <approvalSet clover:dataType="java.lang.String">$0.approvalSet</approvalSet>
+  <contactType clover:dataType="java.lang.String">$0.contactType</contactType>
+  <deliveryTask clover:dataType="java.lang.String">$0.deliveryTask</deliveryTask>
+  <workEnd clover:dataType="java.lang.String">$0.workEnd</workEnd>
+  <UTest clover:dataType="java.lang.String">$0.UTest</UTest>
+  <uponApproval clover:dataType="java.lang.String">$0.uponApproval</uponApproval>
+  <knowledge clover:dataType="java.lang.Boolean">$0.knowledge</knowledge>
+  <useView clover:dataType="java.lang.String">$0.useView</useView>
+  <encodedQuery clover:dataType="java.lang.String">$0.encodedQuery</encodedQuery>
+  <closedAt clover:dataType="java.lang.String">$0.closedAt</closedAt>
+  <uponReject clover:dataType="java.lang.String">$0.uponReject</uponReject>
+  <watchList clover:dataType="java.lang.String">$0.watchList</watchList>
+  <state clover:dataType="java.math.BigDecimal">$0.state</state>
+  <sysUpdatedOn clover:dataType="java.lang.String">$0.sysUpdatedOn</sysUpdatedOn>
+  <resolvedBy clover:dataType="java.lang.String">$0.resolvedBy</resolvedBy>
+  <slaDue clover:dataType="java.lang.String">$0.slaDue</slaDue>
+  <closeNotes clover:dataType="java.lang.String">$0.closeNotes</closeNotes>
+  <workStart clover:dataType="java.lang.String">$0.workStart</workStart>
+  <rfc clover:dataType="java.lang.String">$0.rfc</rfc>
+  <groupList clover:dataType="java.lang.String">$0.groupList</groupList>
+  <sysCreatedBy clover:dataType="java.lang.String">$0.sysCreatedBy</sysCreatedBy>
+  <order clover:dataType="java.math.BigDecimal">$0.order</order>
+  <childIncidents clover:dataType="java.math.BigDecimal">$0.childIncidents</childIncidents>
+  <userInput clover:dataType="java.lang.String">$0.userInput</userInput>
+  <notify clover:dataType="java.math.BigDecimal">$0.notify</notify>
+  <workNotesList clover:dataType="java.lang.String">$0.workNotesList</workNotesList>
+  <sysUpdatedBy clover:dataType="java.lang.String">$0.sysUpdatedBy</sysUpdatedBy>
+  <reopenCount clover:dataType="java.math.BigDecimal">$0.reopenCount</reopenCount>
+  <dueDate clover:dataType="java.lang.String">$0.dueDate</dueDate>
+  <madeSla clover:dataType="java.lang.Boolean">$0.madeSla</madeSla>
+  <expectedStart clover:dataType="java.lang.String">$0.expectedStart</expectedStart>
+  <approvalHistory clover:dataType="java.lang.String">$0.approvalHistory</approvalHistory>
+  <correlationDisplay clover:dataType="java.lang.String">$0.correlationDisplay</correlationDisplay>
+  <excludeColumns clover:dataType="java.lang.String">$0.excludeColumns</excludeColumns>
+  <correlationId clover:dataType="java.lang.String">$0.correlationId</correlationId>
+  <sysModCount clover:dataType="java.math.BigDecimal">$0.sysModCount</sysModCount>
+  <sysCreatedOn clover:dataType="java.lang.String">$0.sysCreatedOn</sysCreatedOn>
+  <approval clover:dataType="java.lang.String">$0.approval</approval>
+  <severity clover:dataType="java.math.BigDecimal">$0.severity</severity>
+  <resolvedAt clover:dataType="java.lang.String">$0.resolvedAt</resolvedAt>
+  <followUp clover:dataType="java.lang.String">$0.followUp</followUp>
+  <orderByDesc clover:dataType="java.lang.String">$0.orderByDesc</orderByDesc>
+  <incidentState clover:dataType="java.math.BigDecimal">$0.incidentState</incidentState>
+  <UNumberScsm clover:dataType="java.lang.String">$0.UNumberScsm</UNumberScsm>
+  <openedAt clover:dataType="java.lang.String">$0.openedAt</openedAt>
+  <subcategory clover:dataType="java.lang.String">$0.subcategory</subcategory>
+  <businessStc clover:dataType="java.math.BigDecimal">$0.businessStc</businessStc>
+  <deliveryPlan clover:dataType="java.lang.String">$0.deliveryPlan</deliveryPlan>
+  <escalation clover:dataType="java.math.BigDecimal">$0.escalation</escalation>
+  <comments clover:dataType="java.lang.String">$0.comments</comments>
+  <reassignmentCount clover:dataType="java.math.BigDecimal">$0.reassignmentCount</reassignmentCount>
+</Map>]]></attr>
+<attr name="_data_format"><![CDATA[MAP]]></attr>
+<attr name="__metadata"><![CDATA[true]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="BEAN_READER0:0" guiBendpoints="" id="Edge0" inPort="Port 0 (in)" metadata="52dc744a-0176-446f-824d-7e966e261453" outPort="Port 0 (out)" toNode="FOREACH_OBJECT_MAP:0"/>
+<Edge debugMode="true" fromNode="FOREACH_OBJECT_MAP:0" guiBendpoints="" id="Edge1" inPort="Port 0 (in)" metadata="a890de9a-cfcd-405a-8529-5efc49973e83" outPort="Port 0 (out)" toNode="MAP_WRITER0:0"/>
+</Phase>
+</Graph>

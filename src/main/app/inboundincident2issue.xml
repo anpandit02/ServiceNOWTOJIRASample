@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper" xmlns:tracking="http://www.mulesoft.org/schema/mule/ee/tracking" xmlns:cxf="http://www.mulesoft.org/schema/mule/cxf" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="EE-3.5.1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/cxf http://www.mulesoft.org/schema/mule/cxf/current/mule-cxf.xsd
+http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/mule/ee/tracking/current/mule-tracking-ee.xsd
+http://www.mulesoft.org/schema/mule/ee/data-mapper http://www.mulesoft.org/schema/mule/ee/data-mapper/current/mule-data-mapper.xsd">
+    <data-mapper:config name="Pojo_To_XML" transformationGraphPath="pojo_to_xml.grf" doc:name="Pojo_To_XML"/>
+    
+    <flow name="inboundincident2issueFlow1" doc:name="inboundincident2issueFlow1">
+        <http:inbound-endpoint exchange-pattern="one-way" address="http://${host.url}:${host.port}/ServiceNow_u_niketest" doc:name="HTTP"/>
+        <cxf:proxy-service payload="body" doc:name="CXF" namespace="http://www.service-now.com/u_niketest" service="ServiceNow_u_niketest" wsdlLocation="u_niketest.wsdl"/>
+        <set-variable variableName="status" value="inserted" doc:name="Variable"/>
+        <data-mapper:transform config-ref="Pojo_To_XML" input-ref="#[flowVars[&quot;status&quot;]]" doc:name="Pojo To XML"/>
+        <http:outbound-endpoint exchange-pattern="request-response" host="${host.url}" port="${host.port}" path="jira" method="POST" doc:name="HTTP"/>
+    </flow>
+    <flow name="inboundincident2issueFlow2" doc:name="inboundincident2issueFlow2">
+        <http:inbound-endpoint exchange-pattern="one-way" host="${host.url}" port="${host.port}" path="jira" doc:name="HTTP"/>
+        <logger message="#[payload]" level="INFO" doc:name="Logger"/>
+    </flow>
+</mule>
